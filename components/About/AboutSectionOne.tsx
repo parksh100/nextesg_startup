@@ -25,7 +25,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="검증된 컨설팅 프로세스"
-                paragraph="ESG Master의 모든 컨설팅 프로세스는 고객사의 애로사항을 이해하고 해결책을 제시할 수 있도록 설계되어 있습니다. 수많은 고객사에서 한결같이 인정받고 있는 ESG Master의 컨설팅 프로세스를 소개합니다."
+                paragraph="ESG Master의 컨설팅 프로세스는 고객사의 애로사항을 이해하고 해결책을 제시할 수 있도록 설계되어 있습니다. 수많은 고객사에서 한결같이 인정받고 있는 ESG Master의 컨설팅 프로세스를 소개합니다."
                 mb="44px"
               />
 

@@ -54,7 +54,7 @@ const Header = () => {
                 } `}
               >
                 <Image
-                  src="/images/logo/logo.jpg"
+                  src="/images/logo/logo_esgMaster2.svg"
                   alt="logo"
                   width={140}
                   height={30}

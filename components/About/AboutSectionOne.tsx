@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="검증된 프로세스와 최고의 컨설턴트"
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="검증된 컨설팅 프로세스"
+                paragraph="ESG Master의 모든 컨설팅 프로세스는 고객사의 애로사항을 이해하고 해결책을 제시할 수 있도록 설계되어 있습니다. 수많은 고객사에서 한결같이 인정받고 있는 ESG Master의 컨설팅 프로세스를 소개합니다."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="철저한 맞춤형 ESG" />
+                    <List text="고객 최우선" />
+                    <List text="오직 중소기업" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="눈높이 교육훈련" />
+                    <List text="명확한 ESG보고서" />
+                    <List text="주기적 알림관리" />
                   </div>
                 </div>
               </div>

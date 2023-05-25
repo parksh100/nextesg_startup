@@ -9,9 +9,6 @@ import Hero from "@/components/Hero";
 import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
-import { Inter } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -22,9 +19,9 @@ export default function Home() {
       <Video />
       <Brands />
       <AboutSectionOne />
-      <AboutSectionTwo />
-      <Testimonials />
-      <Pricing />
+      {/* <AboutSectionTwo /> */}
+      {/* <Testimonials /> */}
+      {/* <Pricing /> */}
       <Blog />
       <Contact />
     </>

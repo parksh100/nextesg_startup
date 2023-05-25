@@ -11,13 +11,13 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="wow fadeInUp mx-auto max-w-[800px] text-center"
+                className="wow fadeInUp mx-auto mt-60 max-w-[800px] text-center "
                 data-wow-delay=".2s"
               >
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                <h1 className="z-50 mb-5 text-3xl font-bold leading-tight text-white dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
                   Why ESG? Why Now?
                 </h1>
-                <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
+                <p className="mb-12 text-base font-medium !leading-relaxed text-white dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
                   정부와 고객사가 ESG이행을 요구하고 있습니다. <br />
                   정량적인 기업실적을 나타내는 재무제표 만큼이나 비재무적,
                   정성적 요소인 ESG이행이 중요해지고 있습니다. 제도의 도입기에
@@ -43,7 +43,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="absolute top-0 right-0 z-[-1] opacity-30 lg:opacity-100">
-          <svg
+          {/* <svg
             width="450"
             height="556"
             viewBox="0 0 450 556"
@@ -178,9 +178,14 @@ const Hero = () => {
                 <stop offset="1" stopColor="#4A6CF7" stopOpacity="0" />
               </linearGradient>
             </defs>
-          </svg>
+          </svg> */}
+          <img
+            src="/images/cityview.jpg"
+            alt="cityview"
+            className="brightness-50"
+          />
         </div>
-        <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
+        {/* <div className="absolute bottom-0 left-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="364"
             height="201"
@@ -282,7 +287,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
       </section>
     </>
   );

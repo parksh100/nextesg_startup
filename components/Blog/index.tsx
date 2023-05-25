@@ -7,8 +7,8 @@ const Blog = () => {
     <section id="blog" className="bg-primary/5 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="ESG정보"
+          paragraph="ESG Master는 ESG최신 정보를 고객사들과 함께 공유하고 있습니다. 경영진의 지속적인 관심이 더 나은 ESG를 만듭니다."
           center
         />
 

@@ -5,10 +5,10 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "위너스타레벡 주식회사",
+    designation: "CEO 김철만",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "보증기관 보증에 도움이 된다고 하여 ESG Master를 알게 되었습니다. ESG Master의 컨설팅을 통해 ESG보고서를 작성하고 보증기관 보증에 많은 도움이 되었습니다. ESG Master의 컨설팅은 매우 만족스러웠습니다.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
@@ -16,8 +16,7 @@ const testimonialData: Testimonial[] = [
     id: 2,
     name: "Devid Weilium",
     designation: "Founder @UIdeck",
-    content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+    content: "기업의 사회적 책임이행이 중요해지고 있는 시점에서 경영진.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
@@ -37,8 +36,8 @@ const Testimonials = () => {
     <section className="relative z-10 bg-primary/[.03] py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="Customer Voice"
+          paragraph="어려운 환경에서도 ESG이행의 필요성을 먼저 인식한 중소기업 고객사들과 함께 했습니다. 고객사들의 목소리를 소개합니다."
           center
         />
 

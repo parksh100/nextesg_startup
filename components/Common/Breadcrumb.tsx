@@ -15,10 +15,12 @@ const Breadcrumb = ({
             <div className="w-full px-4 md:w-8/12 lg:w-7/12">
               <div className="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
                 <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  {pageName}
+                  {"About"}
                 </h1>
                 <p className="text-base font-medium leading-relaxed text-body-color">
-                  {description}
+                  {
+                    "ESG Master는 중소기업과 함께 해 왔습니다. 최저임금 인상, 인력난, 코로나19, 저가경쟁 등으로 인해 중소기업의 경쟁력은 나날이 약화되고 있습니다. 어려운 여건의 중소기업을 위해 ESG Master는 가장 가까운 곳에서 함께 해왔습니다."
+                  }
                 </p>
               </div>
             </div>

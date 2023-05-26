@@ -8,7 +8,8 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="ESG정보"
-          paragraph="ESG Master는 ESG최신 정보를 고객사들과 함께 공유하고 있습니다. 경영진의 지속적인 관심이 더 나은 ESG를 만듭니다."
+          paragraph1="ESG Master는 ESG최신 정보를 고객사들과 함께 공유하고 있습니다."
+          paragraph2="경영진의 지속적인 관심이 더 나은 ESG를 만듭니다."
           center
         />
 

@@ -12,7 +12,8 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="중소기업 ESG 컨설팅서비스"
-            paragraph="정부와 공기업, 대기업이 ESG경영을 위한 준비가 마무리되고 있습니다.이제 중소기업도 ESG경영을 준비해야 할 때입니다. "
+            paragraph1="정부와 공기업, 대기업이 ESG경영을 위한 준비가 마무리되고 있습니다. "
+            paragraph2="이제 중소기업도 ESG경영을 준비해야 할 때입니다. "
             center
           />
 

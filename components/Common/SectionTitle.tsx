@@ -1,12 +1,14 @@
 const SectionTitle = ({
   title,
-  paragraph,
+  paragraph1,
+  paragraph2 = "",
   width = "570px",
   center,
   mb = "100px",
 }: {
   title: string;
-  paragraph: string;
+  paragraph1: string;
+  paragraph2: string;
   width?: string;
   center?: boolean;
   mb?: string;
@@ -22,7 +24,10 @@ const SectionTitle = ({
           {title}
         </h2>
         <p className="text-base !leading-relaxed text-body-color md:text-lg">
-          {paragraph}
+          {paragraph1}
+        </p>
+        <p className="text-base !leading-relaxed text-body-color md:text-lg">
+          {paragraph2}
         </p>
       </div>
     </>

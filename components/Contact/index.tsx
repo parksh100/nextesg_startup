@@ -1,3 +1,4 @@
+"use client";
 import NewsLatterBox from "./NewsLatterBox";
 
 const Contact = () => {
@@ -18,7 +19,7 @@ const Contact = () => {
                 도움이 필요하신가요? 바로 여기에 문의하세요. 곧바로
                 답변드리겠습니다.
               </p>
-              <form>
+              <form action="/api/contact" method="POST">
                 <div className="-mx-4 flex flex-wrap">
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
@@ -31,6 +32,7 @@ const Contact = () => {
                       <input
                         type="text"
                         placeholder="Enter your name"
+                        required
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
                     </div>
@@ -45,6 +47,7 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
+                        required
                         placeholder="Enter your email"
                         className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                       />
@@ -60,6 +63,7 @@ const Contact = () => {
                       </label>
                       <textarea
                         name="message"
+                        required
                         rows={5}
                         placeholder="Enter your Message"
                         className="w-full resize-none rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
@@ -67,7 +71,10 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <button className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                    <button
+                      type="submit"
+                      className="rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp"
+                    >
                       문의하기
                     </button>
                   </div>

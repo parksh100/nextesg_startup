@@ -2,7 +2,7 @@ export default function OurTeam() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container mx-auto px-5 py-24">
+        {/* <div className="container mx-auto px-5 py-24">
           <div className="bg-slate-100  flex w-full flex-col">
             <h1 className="mb-5 text-2xl font-bold text-black dark:text-white sm:text-3xl ">
               Our Team
@@ -34,50 +34,20 @@ export default function OurTeam() {
               팀이 수행하는 ESG컨설팅은 더욱 신뢰할 수 있습니다.,
             </p>
           </div>
-        </div>
-        <div className="container mx-auto px-5 py-24">
+        </div> */}
+        <div className="container mx-auto px-5 pb-24">
           <div className="-m-2 mt-10 flex flex-wrap">
             <div className="w-full p-2 md:w-1/2 lg:w-1/3">
               <div className="border-gray-200 flex h-full items-center rounded-lg border p-4">
                 <img
                   alt="team"
                   className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-top"
-                  src="/psh.jpg"
+                  src="/images/about/psh.jpg"
                 />
                 <div className="flex-grow">
                   <h2 className="text-gray-900 font-bold">박성훈</h2>
                   <p className="text-body-color">
                     대표컨설턴트/ 경영지도사/ ISO검증심사원{" "}
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full p-2 md:w-1/2 lg:w-1/3">
-              <div className="border-gray-200 flex h-full items-center rounded-lg border p-4">
-                <img
-                  alt="team"
-                  className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center"
-                  src="https://dummyimage.com/88x88"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 font-bold">오신영</h2>
-                  <p className="text-body-color">
-                    총괄 컨설턴트/ 경영지도사/ 행정사
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="w-full p-2 md:w-1/2 lg:w-1/3">
-              <div className="border-gray-200 flex h-full items-center rounded-lg border p-4">
-                <img
-                  alt="team"
-                  className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-top"
-                  src="https://dummyimage.com/88x88"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 font-bold">김원일</h2>
-                  <p className="text-body-color">
-                    수석 컨설턴트/ 컨설팅학 석사/ 해외마케팅 전문가
                   </p>
                 </div>
               </div>
@@ -88,7 +58,7 @@ export default function OurTeam() {
                 <img
                   alt="team"
                   className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-top"
-                  src="/ljy.jpg"
+                  src="/images/about/ljy.jpg"
                 />
                 <div className="flex-grow">
                   <h2 className="text-gray-900 font-bold">이주용</h2>
@@ -104,7 +74,7 @@ export default function OurTeam() {
                 <img
                   alt="team"
                   className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center"
-                  src="/mjs.png"
+                  src="/images/about/mjs.png"
                 />
                 <div className="flex-grow">
                   <h2 className="text-gray-900 font-bold">명준식</h2>
@@ -120,12 +90,12 @@ export default function OurTeam() {
                 <img
                   alt="team"
                   className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center"
-                  src="https://dummyimage.com/80x80"
+                  src="/images/about/his.jpg"
                 />
                 <div className="flex-grow">
-                  <h2 className="text-gray-900 font-bold">OOO</h2>
+                  <h2 className="text-gray-900 font-bold">허인식</h2>
                   <p className="text-body-color">
-                    컨설팅학 석사/ 중소기업중앙회 이사장역임
+                    수석 컨설턴트/ 신용보증기금 21년 근무
                   </p>
                 </div>
               </div>
@@ -135,17 +105,17 @@ export default function OurTeam() {
                 <img
                   alt="team"
                   className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center"
-                  src="https://dummyimage.com/84x84"
+                  src="/images/about/psb.jpg"
                 />
                 <div className="flex-grow">
-                  <h2 className="text-gray-900 font-bold">ㅇㅇㅇ</h2>
+                  <h2 className="text-gray-900 font-bold">박수빈</h2>
                   <p className="text-body-color">
-                    수석 컨설턴트/ 신용보증기금 출신
+                    프로젝트 매니저/ 국가안전대진단전문위원
                   </p>
                 </div>
               </div>
             </div>
-            <div className="w-full p-2 md:w-1/2 lg:w-1/3">
+            {/* <div className="w-full p-2 md:w-1/2 lg:w-1/3">
               <div className="border-gray-200 flex h-full items-center rounded-lg border p-4">
                 <img
                   alt="team"
@@ -157,22 +127,7 @@ export default function OurTeam() {
                   <p className="text-body-color">수석 컨설턴트/ 행정사</p>
                 </div>
               </div>
-            </div>
-            <div className="w-full p-2 md:w-1/2 lg:w-1/3">
-              <div className="border-gray-200 flex h-full items-center rounded-lg border p-4">
-                <img
-                  alt="team"
-                  className="bg-gray-100 mr-4 h-16 w-16 flex-shrink-0 rounded-full object-cover object-center"
-                  src="/psb.jpg"
-                />
-                <div className="flex-grow">
-                  <h2 className="text-gray-900 font-bold">박수빈</h2>
-                  <p className="text-body-color">
-                    책임 컨설턴트/ 국가안전대진단전문위원
-                  </p>
-                </div>
-              </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

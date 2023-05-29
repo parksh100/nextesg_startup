@@ -18,14 +18,15 @@ const AboutSectionOne = () => {
   );
 
   return (
-    <section id="about" className="pt-16 md:pt-20 lg:pt-28">
+    <section id="about" className="bg-primary/[.03] pt-16 md:pt-20 lg:pt-28">
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="검증된 컨설팅 프로세스"
-                paragraph="ESG Master의 컨설팅 프로세스는 고객사의 애로사항을 이해하고 해결책을 제시할 수 있도록 설계되어 있습니다. 수많은 고객사에서 한결같이 인정받고 있는 ESG Master의 컨설팅 프로세스를 소개합니다."
+                paragraph1="ESG Master의 컨설팅 프로세스는 고객사의 애로사항을 이해하고 해결책을 제시할 수 있도록 설계되어 있습니다. 수많은 고객사에서 한결같이 인정받고 있는 ESG Master의 컨설팅 프로세스를 소개합니다."
+                paragraph2=""
                 mb="44px"
               />
 
@@ -36,14 +37,14 @@ const AboutSectionOne = () => {
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="철저한 맞춤형 ESG" />
-                    <List text="고객 최우선" />
-                    <List text="오직 중소기업" />
+                    <List text="정밀한 AS-IS 진단" />
+                    <List text="이해가능한 Gap분석" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="눈높이 교육훈련" />
-                    <List text="명확한 ESG보고서" />
-                    <List text="주기적 알림관리" />
+                    <List text="맞춤형 전략개발" />
+                    <List text="이행가능한 실행계획" />
+                    <List text="ESG보고서" />
                   </div>
                 </div>
               </div>
@@ -55,10 +56,11 @@ const AboutSectionOne = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/consulting.svg"
                   alt="about-image"
-                  fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  width={500}
+                  height={300}
+                  className="mx-auto max-w-full  lg:mr-0"
                 />
               </div>
             </div>

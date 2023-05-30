@@ -12,7 +12,7 @@ import Video from "@/components/Video";
 
 export default function Home() {
   return (
-    <div className="bg-slate-100">
+    <>
       <ScrollUp />
       <Hero />
       <Features />
@@ -22,8 +22,8 @@ export default function Home() {
       {/* <AboutSectionTwo /> */}
       {/* <Testimonials /> */}
       {/* <Pricing /> */}
-      {/* <Blog />
-      <Contact /> */}
-    </div>
+      <Blog />
+      <Contact />
+    </>
   );
 }

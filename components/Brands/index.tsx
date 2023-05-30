@@ -48,10 +48,22 @@ const Brands = () => {
               {/* {brandsData.map((brand) => (
                 <SingleBrand key={brand.id} brand={brand} />
               ))} */}
-              <img src="/images/brands/kai.png" alt="" className="w-48" />
-              <img src="/images/brands/kbsi.svg" alt="" className="w-48" />
-              <img src="/images/brands/kaikakao.svg" alt="" className="w-32" />
-              <img src="/images/brands/tny.svg" alt="" className="w-48" />
+              <img
+                src="/images/brands/kai-removebg.png"
+                alt="kai 로고"
+                className="w-56"
+              />
+              <img
+                src="/images/brands/kbsi-removebg.png"
+                alt=""
+                className="w-56"
+              />
+              {/* <img src="/images/brands/kaikakao.svg" alt="" className="w-32" /> */}
+              <img
+                src="/images/brands/tny.png"
+                alt="티앤와이 로고"
+                className="color w-56"
+              />
             </div>
           </div>
         </div>

@@ -55,11 +55,11 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
                 data-wow-delay=".2s"
               >
-                <Image
+                <img
                   src="/images/about/consulting.svg"
                   alt="about-image"
                   width={500}
-                  height={300}
+                  height={480}
                   className="mx-auto max-w-full  lg:mr-0"
                 />
               </div>

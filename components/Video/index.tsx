@@ -14,7 +14,8 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title="Watch Video"
-          paragraph="ESG의 개념을 쉽게 이해할 수 있는 영상을 제공합니다. 우리는 영상의 내용만으로도 충분히 ESG에 대해 이해하고 시작할 수 있습니다. "
+          paragraph1="ESG의 개념을 쉽게 이해할 수 있는 영상을 제공합니다. 우리는 영상의 내용만으로도 충분히 ESG에 대해 이해하고 시작할 수 있습니다. "
+          paragraph2=""
           center
           mb="80px"
         />
@@ -30,7 +31,7 @@ const Video = () => {
                 <div className="absolute top-0 right-0 flex h-full w-full items-center justify-center">
                   <button
                     onClick={() => setOpen(true)}
-                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary transition hover:bg-opacity-100"
+                    className="flex h-[70px] w-[70px] items-center justify-center rounded-full bg-white bg-opacity-75 text-primary hover:bg-opacity-100"
                   >
                     <svg
                       width="16"

@@ -21,7 +21,7 @@ const Hero = () => {
                 className="wow fadeInUp mx-auto max-w-[800px] text-center "
                 data-wow-delay=".2s"
               >
-                <h1 className="z-50 mt-40 mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-sm sm:leading-tight sm:text-white md:text-5xl md:leading-tight">
+                <h1 className="md: z-50 mt-40 mb-5 text-xl font-bold leading-tight text-black dark:text-white sm:text-sm sm:leading-tight sm:text-white md:mt-10 md:text-5xl md:leading-tight">
                   Why ESG?
                   <br className="block md:hidden" /> Why Now?
                 </h1>
